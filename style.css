@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&family=DynaPuff:wght@400;700&family=Paytone+One&family=Rock+Salt&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family:serif,  monospace,  sans-serif;
+    background-image: url(./Img/estadio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    /*background:linear-gradient(90deg, blue,white );*/ 
+}
+
+
+.principal {
+    margin-top: 30px;
+}
+
+.navbar{
+    background-color:#f4f007;
+}
+/*inicio de prueba*/
+.navbar{
+   font-family: "DynaPuff", cursive;
+    padding: 0;
+    background-color: rgb(231, 235, 35);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+}
+.navbar-brand {
+    font-size: xx-large;
+    font-family:"DynaPuff", cursive;
+    color: blue;
+}
+/*Agregué formulario de contacto con retorno*/
+.form a{
+   display: flex;
+   justify-content: center;
+   background-color: #2b4c7e;
+   align-content: center; 
+   color: aliceblue;
+   text-decoration: none;
+   border-radius: 1rem;
+}
+.dropdown-menu{
+    background-color:rgb(248, 196, 99) ;
+}
+ 
+
+
+/*inicio de final*/
+#carouselExample{
+    background-color: beige;
+}
+
+.text-center{
+    color: rgb(236, 129, 90);
+    font-family:"DynaPuff", cursive ;
+}
+
+#cat {
+    color:rgb(236, 129, 90);
+    text-align : center;
+    font-family: "DynaPuff", cursive ;
+}
+
+#frase{
+    color: rgb(236, 129, 90);
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-size: x-large;
+}
+    
+
+footer {
+    background-color:#f4f007;
+    padding: 5px ;
+    
+}
+
+li:hover {
+    background-color: rgb(224, 200, 141);
+}
+
+
+/*estilo para el formulario*/
+.form{
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    margin: 5% auto auto auto;
+    
+}
+ 
+.estilo{
+font-family: 'Montserrat', sans-serif;
+min-width: 100vh;
+width: 100%;
+display: flex;
+}
+.input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding:0.8 1em ;
+    border: none;
+    outline: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+#enviar {
+    font-family: inherit;
+    border-radius: 1rem;
+    background-color:rgb(39, 171, 227) ;
+    height: 2rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.contenido{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.title{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.5;
+}
+.input--mensaje{
+    resize: none;
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    height: 10rem;
+}
+/*raptor class*/
+.container{
+    width: 50%;
+    border: 2px solid black;
+}
+
+div h2 ,p{
+ color: #a14016;
+}
+/*Estilo carpeta futbol 11*/
+.logo{
+    margin: 10px;
+    padding: 10px;
+    justify-content:center;
+    text-align: center;
+}
+.logo h5{
+    font-family: "DynaPuff", cursive ;
+}
+.categorias{
+    display: flex;
+    justify-content: center;
+}
+.imagen{
+    width: 350px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+.categorias h3{
+    display: flex;
+    justify-content: center;
+    padding-right: 180px;
+    padding-bottom: 10px;
+}
+.detalles{
+    align-self: center;
+    font-family: "DynaPuff", cursive;
+    
+}
+.detalles p{
+    color: black;
+    padding-left: 10%;
+    padding-right: 30%;
+}
+
+.button-link{
+    color: #0c0c54;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}/*Estilo carpeta futbol 11*/
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+section img{
+    display: flex;
+    display: inline-block;
+    width: 50%;
+}
+section p{
+    padding: 15px;
+    margin: 15px;
+    width: 30%;
+    font-size: 19px;
+    font-family: "Roboto Slab",serif;
+    color: black;
+    }
+.card{
+    background-color: gray;
+}
+
+
+    .card-img-top {
+    background-color: gray;
+}
+.card-text{
+    color: black;
+    font-family:"Roboto Slab",serif;
+    background-color: gray;
+}
+.card-body{
+background-color:gray;
+}
+.card-title{
+    font-family:"DynaPuff", cursive ;
+    background-color: gray;  
+}
+#foot{
+    font-family: "Roboto Slab",serif;
+    font-size: 14px;
+}
