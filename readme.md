@@ -2,6 +2,6 @@
 Comision 184
 
 Integrantes
-    Cristina
-    Fabian
+    Cristina Gonzalez
+    Fabian Schächtel
     Daniel Paltano
